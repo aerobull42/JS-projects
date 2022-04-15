@@ -58,3 +58,16 @@ function AssignmentFour() {
     ".";
   console.log(description);
 }
+
+function ChallengeOne() {
+  let MarkHeight = 1.69;
+  let MarkWeight = 78;
+  let JohnHeight = 1.95;
+  let JohnWeight = 92;
+  let MarkBMI = MarkWeight / MarkHeight ** 2;
+  let JohnBMI = JohnWeight / JohnHeight ** 2;
+  let MarkHigher = MarkBMI > JohnBMI;
+  console.log(MarkHigher);
+}
+
+ChallengeOne();
