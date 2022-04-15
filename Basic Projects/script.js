@@ -70,4 +70,18 @@ function ChallengeOne() {
   console.log(MarkHigher);
 }
 
-ChallengeOne();
+function AssignmentFive() {
+  const country = "Australia";
+  const continent = "Oceania";
+  let population = 25.5;
+  const isIsland = true;
+  const language = "English";
+
+  let split = population / 2;
+  split++;
+  let moreThanFinland = population > 6;
+  let moreThanAverage = population > 33;
+
+  let description = `${country} is in ${continent} and its ${population} million people speak ${language}.`;
+  console.log(description);
+}
